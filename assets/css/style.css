@@ -1,7 +1,10 @@
+:root 
 * {
   box-sizing: border-box;
 }
-
+body {
+  margin: 0;
+}
 .card {
 height: 250px;
 width: 400px;
@@ -15,21 +18,22 @@ overflow: hidden;
 margin-left: 30px;
 }
 
-.card:nth-child(1n+1) {
+.card:nth-child(3n+1) {
     background: linear-gradient(90deg, rgba(255,189,154,1) 0%, rgba(255,151,152,1) 50%, rgba(247,100,102,1) 99%);
 }
 
-.card:nth-child(1n+2) {
+.card:nth-child(3n+2) {
   background: linear-gradient(90deg, rgba(137,199,246,1) 0%, rgba(85,175,238,1) 50%, rgba(30,147,227,1) 99%);
 }
 
-.card:nth-child(1n+3) {
+.card:nth-child(3n+3) {
   background: linear-gradient(90deg, rgba(122,217,209,1) 0%, rgba(45,210,193,1) 50%, rgba(17,209,186,1) 99%);
 }
   .wrapper {
   position: relative;
   display: block;
   height: 80%;
+  width: 80%;;
   margin: 10% 10%;
 }
 
